@@ -1,5 +1,8 @@
 # Lab: Flask-SQLAlchemy Serialization
 
+I added reviews to connect customers and items. When I want to see what a customer reviewed, I can use customer.items and SQLAlchemy goes through the reviews for me. I used Marshmallow to turn the records into dictionaries and kept the nested records shallow so they don't keep pointing back to each other.
+
+
 ## Scenario
 
 You are building a simplified e-commerce backend that manages customers, 
